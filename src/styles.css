@@ -132,6 +132,8 @@ html {
 .todos {
   display: flex;
   flex-direction: column;
+
+  min-height: 500px;
 }
 
 .todo {
@@ -149,6 +151,7 @@ html {
 }
 
 .todo-text {
+  width: 100%;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
